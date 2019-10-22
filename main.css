@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+.hidden {
+    display: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
