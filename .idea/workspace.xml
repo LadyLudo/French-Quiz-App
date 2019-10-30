@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9bff1fa7-5d5c-489a-9416-e13ecbd51f31" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STORE.js" beforeDir="false" afterPath="$PROJECT_DIR$/STORE.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571537600133</updated>
-      <workItem from="1571537601335" duration="10101000" />
+      <workItem from="1571537601335" duration="10664000" />
     </task>
     <task id="LOCAL-00001" summary="Added basics to html&#10;Connected css file">
       <created>1571772916692</created>
@@ -106,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572400451903</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added pseudocode">
+      <created>1572401188793</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572401188793</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +137,7 @@
     <MESSAGE value="Added all visual windows" />
     <MESSAGE value="Added and linked JS and jQuery" />
     <MESSAGE value="Added STORE file&#10;Added start button test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added STORE file&#10;Added start button test" />
+    <MESSAGE value="Added pseudocode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added pseudocode" />
   </component>
 </project>
