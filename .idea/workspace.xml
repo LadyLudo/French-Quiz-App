@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bff1fa7-5d5c-489a-9416-e13ecbd51f31" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571537600133</updated>
-      <workItem from="1571537601335" duration="7560000" />
+      <workItem from="1571537601335" duration="7745000" />
     </task>
     <task id="LOCAL-00001" summary="Added basics to html&#10;Connected css file">
       <created>1571772916692</created>
@@ -78,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571848976952</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added and linked JS and jQuery">
+      <created>1572398475114</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572398475114</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +106,7 @@
     <MESSAGE value="Added sections and basic styling" />
     <MESSAGE value="moved navigation to inside div" />
     <MESSAGE value="Added all visual windows" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added all visual windows" />
+    <MESSAGE value="Added and linked JS and jQuery" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added and linked JS and jQuery" />
   </component>
 </project>
