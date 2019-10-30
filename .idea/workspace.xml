@@ -55,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571537600133</updated>
-      <workItem from="1571537601335" duration="10664000" />
+      <workItem from="1571537601335" duration="11712000" />
     </task>
     <task id="LOCAL-00001" summary="Added basics to html&#10;Connected css file">
       <created>1571772916692</created>
@@ -113,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572401188793</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added questions">
+      <created>1572401704747</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572401704747</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added questions">
+      <created>1572401754065</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1572401754065</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +152,7 @@
     <MESSAGE value="Added and linked JS and jQuery" />
     <MESSAGE value="Added STORE file&#10;Added start button test" />
     <MESSAGE value="Added pseudocode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added pseudocode" />
+    <MESSAGE value="Added questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added questions" />
   </component>
 </project>
