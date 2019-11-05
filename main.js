@@ -86,7 +86,7 @@ function wrongAnswer(){
     console.log('wrong answer');
     toggleQuestions();
     $('.wrong-answer').toggleClass('hidden');
-    $('#wrong').text(`Sorry! The answer was ${STORE[questionNumber-1].correctAnswer}`);
+    $('#wrong').text(`Nope, sorry!`);
 }
 // retake button
 function retakeQuiz(){
