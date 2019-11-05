@@ -79,12 +79,14 @@ function correctAnswer(){
     updateScore();
     toggleQuestions();
     $('.right-answer').toggleClass('hidden');
+    $('#right').text(`Yay! Great Job!`);
 }
 //Wrong answer
 function wrongAnswer(){
     console.log('wrong answer');
     toggleQuestions();
     $('.wrong-answer').toggleClass('hidden');
+    $('#wrong').text(`Sorry! The answer was ${STORE[questionNumber-1].correctAnswer}`);
 }
 // retake button
 function retakeQuiz(){
