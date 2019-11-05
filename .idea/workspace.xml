@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9bff1fa7-5d5c-489a-9416-e13ecbd51f31" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STORE.js" beforeDir="false" afterPath="$PROJECT_DIR$/STORE.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571537600133</updated>
-      <workItem from="1571537601335" duration="23398000" />
+      <workItem from="1571537601335" duration="25162000" />
     </task>
     <task id="LOCAL-00001" summary="Added basics to html&#10;Connected css file">
       <created>1571772916692</created>
@@ -170,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572986088431</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Radio reset added">
+      <created>1572988015670</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1572988015670</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +208,7 @@
     <MESSAGE value="Finished functionality" />
     <MESSAGE value="Wrong and right pages added" />
     <MESSAGE value="Images and final page added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Images and final page added" />
+    <MESSAGE value="Radio reset added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Radio reset added" />
   </component>
 </project>

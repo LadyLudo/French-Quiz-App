@@ -71,7 +71,7 @@ function submitAnswer(){
 }
 //Check Answer
 function checkAnswer(){
-    let selectedAnswer = $('input:checked').val();
+    let selectedAnswer = $('input:checked').next().text();
     let rightAnswer = STORE[questionNumber-1].correctAnswer;
     if (selectedAnswer === rightAnswer){
         correctAnswer();
@@ -96,7 +96,7 @@ function wrongAnswer(){
     console.log('wrong answer');
     toggleQuestions();
     $('.wrong-answer').toggleClass('hidden');
-    $('#wrong').text(`Nope, sorry!`);
+    $('#wrong').text(`Nope, sorry! ${STORE[questionNumber-1].correctAnswer} is correct.`);
 }
 // retake button
 function retakeQuiz(){
