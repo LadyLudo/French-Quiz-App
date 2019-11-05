@@ -56,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571537600133</updated>
-      <workItem from="1571537601335" duration="21824000" />
+      <workItem from="1571537601335" duration="23398000" />
     </task>
     <task id="LOCAL-00001" summary="Added basics to html&#10;Connected css file">
       <created>1571772916692</created>
@@ -163,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572985373622</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Images and final page added">
+      <created>1572986088431</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1572986088431</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +200,7 @@
     <MESSAGE value="Updated questions" />
     <MESSAGE value="Finished functionality" />
     <MESSAGE value="Wrong and right pages added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrong and right pages added" />
+    <MESSAGE value="Images and final page added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Images and final page added" />
   </component>
 </project>

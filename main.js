@@ -50,10 +50,17 @@ function generateQuestion(){
 function nextQuestion(){
     $('.next-question').on('click', function(event){
         console.log('next button pressed');
+        resetRadio();
         $(this).parent().toggleClass('hidden');
         toggleQuestions();
         generateQuestion();
     })
+}
+//Reset radio button
+function resetRadio(){
+    $('input[type=radio]').prop('checked', function () {
+        return this.getAttribute('checked') == 'checked';
+    });
 }
 //Submit button
 function submitAnswer(){
@@ -68,6 +75,8 @@ function checkAnswer(){
     let rightAnswer = STORE[questionNumber-1].correctAnswer;
     if (selectedAnswer === rightAnswer){
         correctAnswer();
+    } else if (selectedAnswer === 'default'){
+        alert('Oops! Please select an option!');
     } else {
         console.log(`${selectedAnswer} was chosen`);
         console.log(`${rightAnswer} is correct`);
