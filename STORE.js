@@ -8,7 +8,7 @@ const STORE = [
             'Le chocolat',
             'Le buerre'
         ],
-        correctAnswer: 'Le fromage'
+        correctAnswer: 'answer1'
     },
     {
         question: 'What is the word for milk?',
@@ -18,7 +18,7 @@ const STORE = [
             'Le fromage',
             'Le lait'
         ],
-        correctAnswer: 'Le lait'
+        correctAnswer: 'answer4'
     },
     {
         question: 'How do you say hello?',
@@ -28,7 +28,7 @@ const STORE = [
             'Bonne Nuit',
             'Je m\'appelle'
         ],
-        correctAnswer: 'Bonjour!'
+        correctAnswer: 'answer1'
     },
     {
         question: 'What is the word for kiss?',
@@ -38,7 +38,7 @@ const STORE = [
             'Bisou',
             'Manger'
         ],
-        correctAnswer: 'Bisou'
+        correctAnswer: 'answer3'
     },
     {
         question: 'The word \xE9toile means:',
@@ -48,7 +48,7 @@ const STORE = [
             'Star',
             'Love'
         ],
-        correctAnswer: 'Star'
+        correctAnswer: 'answer3'
     },
     {
         question: 'What is the word for butterfly?',
@@ -58,7 +58,7 @@ const STORE = [
             'Le Chat',
             'Doux'
         ],
-        correctAnswer: 'Le Papillon'
+        correctAnswer: 'answer2'
     },
     {
         question: '"J\'aime ma soeur" means:',
@@ -68,7 +68,7 @@ const STORE = [
             'I aim to please',
             'Jerry aims my sword'
         ],
-        correctAnswer: 'I like my sister'
+        correctAnswer: 'answer2'
     },
     {
         question: 'The word soleil means:',
@@ -78,7 +78,7 @@ const STORE = [
             'Sorry',
             'Sold'
         ],
-        correctAnswer: 'Sun'
+        correctAnswer: 'answer2'
     },
     {
         question: 'What is the capital of France?',
@@ -88,7 +88,7 @@ const STORE = [
             'Versailles',
             'Chanter'
         ],
-        correctAnswer: 'Paris'
+        correctAnswer: 'answer2'
     },
     {
         question: 'What is the word for grapefruit?',
@@ -98,6 +98,6 @@ const STORE = [
             'Le camembert',
             'Le citronnade'
         ],
-        correctAnswer: 'Le pamplemousse'
+        correctAnswer: 'answer1'
     }
 ];

@@ -18,7 +18,7 @@
         <div class ="score">
             <ul>
                 <li>Question:
-                <span class="question-number">0</span>/10</li>
+                    <span class="question-number">0/10</span></li>
                 <li>Score:
                 <span class="score">0</span></li>
             </ul>
@@ -30,11 +30,16 @@
             <button type="button" id='start-quiz'>Start Quiz!</button>
         </section>
         <section class="quiz-questions hidden">
-            <form>This is where the question will show up:<br>
-                <input type="radio" name="answer" value="answer1">Answer 1<br>
-                <input type="radio" name="answer" value="answer2">Answer 2<br>
-                <input type="radio" name="answer" value="answer3">Answer 3<br>
-                <input type="radio" name="answer" value="answer4">Answer 4<br>
+            <form class="question" id="question">
+                <label for="question">This is the question</label><br>
+                <input type="radio" name="answer" value="answer1" id="a">
+                <label for="a">Answer 1</label><br>
+                <input type="radio" name="answer" value="answer2" id="b">
+                <label for="b">Answer 2</label><br>
+                <input type="radio" name="answer" value="answer3" id="c">
+                <label for="c">Answer 3</label><br>
+                <input type="radio" name="answer" value="answer4" id="d">
+                <label for="d">Answer 4</label><br>
                 <input type="submit" value="Submit">
             </form>
         </section>
