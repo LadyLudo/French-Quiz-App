@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9bff1fa7-5d5c-489a-9416-e13ecbd51f31" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STORE.js" beforeDir="false" afterPath="$PROJECT_DIR$/STORE.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
@@ -57,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571537600133</updated>
-      <workItem from="1571537601335" duration="18053000" />
+      <workItem from="1571537601335" duration="20363000" />
     </task>
     <task id="LOCAL-00001" summary="Added basics to html&#10;Connected css file">
       <created>1571772916692</created>
@@ -136,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572452937789</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Updated questions">
+      <created>1572921458028</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1572921458028</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +169,7 @@
     <MESSAGE value="Added pseudocode" />
     <MESSAGE value="Added questions" />
     <MESSAGE value="Finished questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished questions" />
+    <MESSAGE value="Updated questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated questions" />
   </component>
 </project>

@@ -4,12 +4,12 @@ let questionNumber = 0;
 //increments score
 function updateScore(){
     score++;
-    $('.score').text(score);
+    $('#score').text(score);
 }
 //increments questions number
 function updateQuestionNumber(){
     questionNumber++;
-    $('.question-number').text(`${questionNumber}/10`)
+    $('.question-number').text(`${questionNumber}/10`);
 }
 //toggle question screen
 function toggleQuestions(){
@@ -47,7 +47,12 @@ function generateQuestion(){
 }
 //Next question button
 function nextQuestion(){
-    $('.next-question').on('click', generateQuestion())
+    $('.next-question').on('click', function(event){
+        console.log('next button pressed');
+        $(this).parent().toggleClass('hidden');
+        toggleQuestions();
+        generateQuestion();
+    })
 }
 //Submit button
 function submitAnswer(){
@@ -63,23 +68,42 @@ function checkAnswer(){
     if (selectedAnswer === rightAnswer){
         correctAnswer();
     } else {
-        console.log(selectedAnswer);
-        console.log(rightAnswer);
+        console.log(`${selectedAnswer} was chosen`);
+        console.log(`${rightAnswer} is correct`);
         wrongAnswer();
     }
 }
 //Right answer
 function correctAnswer(){
     console.log('right answer');
+    updateScore();
+    toggleQuestions();
+    $('.right-answer').toggleClass('hidden');
 }
 //Wrong answer
 function wrongAnswer(){
     console.log('wrong answer');
+    toggleQuestions();
+    $('.wrong-answer').toggleClass('hidden');
+}
+// retake button
+function retakeQuiz(){
+    $("#reset-quiz").on("click", function(){
+        console.log('retake button pressed');
+        score = 0;
+        questionNumber = 0;
+        $('#score').text(score);
+        $('.question-number').text(`${questionNumber}/10`);
+        $(".final").toggleClass('hidden');
+        $(".start-quiz").toggleClass('hidden');
+    })
 }
 //Run all functions
 function runQuiz(){
     startQuiz();
     submitAnswer();
+    nextQuestion();
+    retakeQuiz();
 }
 
 $(runQuiz);
