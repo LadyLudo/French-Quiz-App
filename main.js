@@ -3,8 +3,8 @@ let score = 0;
 let questionNumber = 0;
 //increments score
 function updateScore(){
-    score++;
-    $('#score').text(score);
+    score+=10;
+    $('#score').text(`${score}%`);
 }
 //increments questions number
 function updateQuestionNumber(){
@@ -42,6 +42,7 @@ function generateQuestion(){
     } else {
         toggleQuestions();
         $(".final").toggleClass('hidden');
+        finalGrade();
         console.log('final screen shown')
     }
 }
@@ -99,6 +100,20 @@ function retakeQuiz(){
         $(".final").toggleClass('hidden');
         $(".start-quiz").toggleClass('hidden');
     })
+}
+//Grade final score
+function finalGrade(){
+    let grade=''
+    if (score >= 100){
+        grade= 'Perfect! You really know your french!';
+    } else if (score >= 80){
+        grade= 'Nice job! You know french pretty well!';
+    } else if (score >= 50){
+        grade= 'Might need to brush up a little more.';
+    } else {
+        grade='Uh oh! Need some more time to study!';
+    }
+    $('#final').text(grade);
 }
 //Run all functions
 function runQuiz(){
