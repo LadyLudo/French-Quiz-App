@@ -16,6 +16,9 @@ body {
     background-image: linear-gradient(lightslategray,#5377A6);
     background-repeat: no-repeat;
 }
+.content {
+    text-align: center;
+}
 p {
     font-size: 22px;
 }
