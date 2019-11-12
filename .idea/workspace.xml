@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bff1fa7-5d5c-489a-9416-e13ecbd51f31" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571537600133</updated>
-      <workItem from="1571537601335" duration="33255000" />
+      <workItem from="1571537601335" duration="33546000" />
     </task>
     <task id="LOCAL-00001" summary="Added basics to html&#10;Connected css file">
       <created>1571772916692</created>
@@ -204,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573597178949</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fixed alert if answer not selected">
+      <created>1573597677596</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1573597677596</updated>
+    </task>
+    <task id="LOCAL-00023" summary="centered text">
+      <created>1573597874564</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1573597874564</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +252,8 @@
     <MESSAGE value="Fixed questions and answers" />
     <MESSAGE value="Added background color" />
     <MESSAGE value="Styling done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Styling done" />
+    <MESSAGE value="fixed alert if answer not selected" />
+    <MESSAGE value="centered text" />
+    <option name="LAST_COMMIT_MESSAGE" value="centered text" />
   </component>
 </project>

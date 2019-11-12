@@ -122,7 +122,7 @@ function finalGrade(){
     } else {
         grade='Uh oh! Need some more time to study!';
     }
-    $('#final').text(grade);
+    $('#final').text(`You got ${score}%! ${grade}`);
 }
 //Run all functions
 function runQuiz(){

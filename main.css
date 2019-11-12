@@ -16,7 +16,7 @@ body {
     background-image: linear-gradient(lightslategray,#5377A6);
     background-repeat: no-repeat;
 }
-.content {
+.start-quiz.final {
     text-align: center;
 }
 p {
