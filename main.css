@@ -1,21 +1,103 @@
 * {
     box-sizing: border-box;
+    font-family: 'Domine', serif;
 }
 .hidden {
     display: none;
+}
+html, body{
+    height: 100%;
+    margin: 0;
 }
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(175, 205, 216, 1);
+    background-image: linear-gradient(lightslategray,#5377A6);
+    background-repeat: no-repeat;
+}
+p {
+    font-size: 22px;
 }
 section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-img {
+.score {
+    text-align: center;
+    margin: 30px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#moulinRouge {
     height: 50%;
     width: 50%;
+}
+.response {
+    height: 300px;
+    width: 400px;
+}
+#arcPicture {
+    height: 20%;
+    width: 20%;
+}
+.redstyle {
+    margin: 30px;
+    background-color: rgba(191, 6, 0, 1);
+    font-size: 16px;
+    border-radius: 8px;
+    width: 250px;
+    height: 30px;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+    color: rgba(164, 184, 191, 1);
+}
+.redstyle:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.quiz-questions {
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+}
+#sentence {
+    margin: 30px;
+}
+.selection-radio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    background-color: #f1f1f1;
+    color: #666;
+    top: 10px;
+    height: 30px;
+    width: 30px;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 7px;
+    margin-top: 20px;
+    outline: none;
+}
+.selection-radio:focus {
+    background-color:dimgray;
+}
+.selection-radio:hover {
+    background-color: dimgray;
+}
+.selection-radio:checked {
+    background-color: rgba(191, 6, 0, 1);
+}
+label {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    cursor: pointer;
+    margin-bottom: 50px;
 }
