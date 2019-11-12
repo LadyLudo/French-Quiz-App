@@ -75,7 +75,7 @@ function checkAnswer(){
     let rightAnswer = STORE[questionNumber-1].correctAnswer;
     if (selectedAnswer === rightAnswer){
         correctAnswer();
-    } else if (selectedAnswer === 'f'){
+    } else if (selectedAnswer === ''){
         alert('Oops! Please select an option!');
     } else {
         console.log(`${selectedAnswer} was chosen`);
