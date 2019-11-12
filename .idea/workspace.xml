@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bff1fa7-5d5c-489a-9416-e13ecbd51f31" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571537600133</updated>
-      <workItem from="1571537601335" duration="33854000" />
+      <workItem from="1571537601335" duration="34101000" />
     </task>
     <task id="LOCAL-00001" summary="Added basics to html&#10;Connected css file">
       <created>1571772916692</created>
@@ -224,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573598191561</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="fixed p centering">
+      <created>1573598307543</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1573598307543</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +269,7 @@
     <MESSAGE value="fixed alert if answer not selected" />
     <MESSAGE value="centered text" />
     <MESSAGE value="changed final screen text" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed final screen text" />
+    <MESSAGE value="fixed p centering" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed p centering" />
   </component>
 </project>
